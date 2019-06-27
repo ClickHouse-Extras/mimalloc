@@ -379,7 +379,7 @@ static void mi_process_done(void) {
   process_done = true;
 
   #ifndef NDEBUG
-  mi_collect(true);
+  // mi_collect(true);
   #endif
   if (mi_option_is_enabled(mi_option_show_stats) ||
       mi_option_is_enabled(mi_option_verbose)) {
