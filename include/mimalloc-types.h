@@ -26,7 +26,7 @@ terms of the MIT license. A copy of the license can be found in the file
 // #define MI_SECURE 1
 
 #if !defined(MI_SECURE)
-#define MI_SECURE 0
+#define MI_SECURE 1
 #endif
 
 // Define MI_DEBUG as 1 for basic assert checks and statistics
