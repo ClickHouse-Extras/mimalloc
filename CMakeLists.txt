@@ -3,7 +3,7 @@ project(libmimalloc C)
 include("cmake/mimalloc-config-version.cmake")
 set(CMAKE_C_STANDARD 11)
 
-option(MI_OVERRIDE   "Override the standard malloc interface" ON)
+option(MI_OVERRIDE   "Override the standard malloc interface" OFF)
 option(MI_INTERPOSE  "Use interpose to override standard malloc on macOS" ON)
 option(MI_SEE_ASM    "Generate assembly files" OFF)
 option(MI_CHECK_FULL "Use full internal invariant checking in DEBUG mode" OFF)
